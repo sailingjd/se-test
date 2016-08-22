@@ -1,0 +1,22 @@
+{
+  "name": "se-challenge",
+  "version": "1.0.0",
+  "description": "Selenium Web Driver Challenge ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sailingjd/se-challenge.git"
+  },
+  "author": "jdent",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sailingjd/se-challenge/issues"
+  },
+  "homepage": "https://github.com/sailingjd/se-challenge#readme",
+  "dependencies": {
+    "nightwatch": "^0.9.7"
+  }
+}

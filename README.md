@@ -32,5 +32,4 @@ git clone https://github.com/sailingjd/se-test.git
 ```
 npm install --save
 ```
-
-*
+* 

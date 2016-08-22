@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sailingjd/se-challenge.git"
+    "url": "git+https://github.com/sailingjd/se-test.git"
   },
   "author": "jdent",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sailingjd/se-challenge/issues"
+    "url": "https://github.com/sailingjd/se-test/issues"
   },
-  "homepage": "https://github.com/sailingjd/se-challenge#readme",
+  "homepage": "https://github.com/sailingjd/se-test#readme",
   "dependencies": {
     "nightwatch": "^0.9.7"
   }

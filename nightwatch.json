@@ -14,6 +14,7 @@
 			"host" : "127.0.0.1",
 			"port" : 4444,
 			"cli_args" : {
+				"webdriver.gecko.driver": "bin/geckodriver.exe.",
 				"webdriver.chrome.driver" : "bin/chromedriver.exe",
 				"webdriver.ie.driver" : ""
 			}
@@ -31,6 +32,7 @@
 				},
 				"desiredCapabilities": {
 				"browserName": "firefox",
+				"marionette": true,
 				"javascriptEnabled": true,
 				"acceptSslCerts": true
 				}

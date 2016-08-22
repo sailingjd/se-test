@@ -22,7 +22,7 @@
 ## Prerequisites
 * [Java 8 JDK](http://www.oracle.com/technetwork/java/javase/downloads/index.html) installed
 * [NodeJS](https://nodejs.org/en/download/) (*v4.5.0LTS*) and [NPM](https://www.npmjs.com/) (*v3.10.6*) installed and available on your system %PATH%. *If you install the Node .msi file from the NodeJS website, NPM is included and both are placed on your system's %PATH% automatically.*
-* To get Firefox to work, you must download version 46 or older from [here](https://ftp.mozilla.org/pub/firefox/releases/46.0/), since the Marionette webdriver for Firefox 47+ does not support actions yet, [read more](http://www.theautomatedtester.co.uk/blog/2016/selenium-webdriver-and-firefox-47.html).
+* To get Firefox to work, you must download version 46 or older from [here](https://ftp.mozilla.org/pub/firefox/releases/46.0/), since the Marionette/Gecko webdriver for Firefox 47+ does not fully support actions yet, [read more](http://www.theautomatedtester.co.uk/blog/2016/selenium-webdriver-and-firefox-47.html).
 
 ## Framework Setup
 * Clone the se-test project to your local machine
@@ -33,4 +33,4 @@ git clone https://github.com/sailingjd/se-test.git
 ```
 npm install --save
 ```
-* 
+*

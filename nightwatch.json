@@ -32,7 +32,7 @@
 				},
 				"desiredCapabilities": {
 				"browserName": "firefox",
-				"marionette": true,
+				"marionette": false,
 				"javascriptEnabled": true,
 				"acceptSslCerts": true
 				}

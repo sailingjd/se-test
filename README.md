@@ -47,8 +47,15 @@ node nightwatch
 ```
 node nightwatch --env chrome
 ```
+
 #### After configuring IE according to the pre-reqs, run
 ```
 node nightwatch --env ie
 ```
 *This was tested with IE 11 configs*
+
+#### For Firefox 47+, the nightwatch.json needs edited
+* Change the **marionette** value to **true** and run...
+```
+node nightwatch
+```

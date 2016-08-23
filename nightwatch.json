@@ -47,6 +47,17 @@
 							"args":["--window-size=1600,800"]
 						}
 					}
+				},
+
+				"ie" : {
+					"desiredCapabilities": {
+					"browserName": "internetexplorer",
+					"javascriptEnabled": true,
+					"acceptSslCerts": true,
+					"chromeOptions": {
+							"args":["--window-size=1600,800"]
+						}
+					}
 				}
 		}
 }

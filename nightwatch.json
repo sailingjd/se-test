@@ -16,7 +16,7 @@
 			"cli_args" : {
 				"webdriver.gecko.driver": "bin/geckodriver.exe.",
 				"webdriver.chrome.driver" : "bin/chromedriver.exe",
-				"webdriver.ie.driver" : ""
+				"webdriver.ie.driver" : "bin/iedriverserver.exe"
 			}
 		},
 
@@ -32,8 +32,8 @@
 				},
 				"desiredCapabilities": {
 				"browserName": "firefox",
-				"marionette": false,
 				"javascriptEnabled": true,
+				"marionette": false,
 				"acceptSslCerts": true
 				}
 		},

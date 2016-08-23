@@ -22,15 +22,33 @@
 ## Prerequisites
 * [Java 8 JDK](http://www.oracle.com/technetwork/java/javase/downloads/index.html) installed
 * [NodeJS](https://nodejs.org/en/download/) (*v4.5.0LTS*) and [NPM](https://www.npmjs.com/) (*v3.10.6*) installed and available on your system %PATH%. *If you install the Node .msi file from the NodeJS website, NPM is included and both are placed on your system's %PATH% automatically.*
-* To get Firefox to work, you must download version 46 or older from [here](https://ftp.mozilla.org/pub/firefox/releases/46.0/), since the Marionette/Gecko webdriver for Firefox 47+ does not fully support actions yet, [read more](http://www.theautomatedtester.co.uk/blog/2016/selenium-webdriver-and-firefox-47.html).
+* For Firefox, you must download version 46 or older from [here](https://ftp.mozilla.org/pub/firefox/releases/46.0/), since the Marionette/Gecko webdriver for Firefox 47+ does not fully support actions yet, [read more](http://www.theautomatedtester.co.uk/blog/2016/selenium-webdriver-and-firefox-47.html).
+* For Internet Explorer, a registry key needs modified/created as well as configuring your internet options accordingly. Check out the Selenium IE-specific wiki [here](https://github.com/SeleniumHQ/selenium/wiki/InternetExplorerDriver).
 
 ## Framework Setup
-* Clone the se-test project to your local machine
+* From the command line, clone the se-test project
 ```
 git clone https://github.com/sailingjd/se-test.git
 ```
-* cd into the cloned directory and run:
+* cd into the cloned dir and run:
 ```
 npm install --save
 ```
-*
+* Make sure you have a *se-test/reports* folder
+
+## Run the Script
+#### While in the root dir (*se-test/*), run
+```
+node nightwatch
+```
+*This will run the script on Firefox v46 or earlier*
+
+#### For Chrome, run
+```
+node nightwatch --env chrome
+```
+#### After configuring IE according to the pre-reqs, run
+```
+node nightwatch --env ie
+```
+*This was tested with IE 11 configs*

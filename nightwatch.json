@@ -54,9 +54,6 @@
 					"browserName": "internetexplorer",
 					"javascriptEnabled": true,
 					"acceptSslCerts": true,
-					"chromeOptions": {
-							"args":["--window-size=1600,800"]
-						}
 					}
 				}
 		}
